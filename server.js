@@ -47,7 +47,7 @@ const server=app.listen(5000,console.log(`Server Started on PORT ${PORT}`));
 const io = require('socket.io')(server,{
     pingTimeout:6000,
     cors:{
-        origin: "http://localhost:3000",
+        origin: "https://s-connectify.onrender.com",
     },
 });
 
